@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  lindesbs\ContaoForge\:
+    resource: ../src
+    exclude: ../src/{Entity,Migrations,Model,Resources,Tests,Widget}
+
+  lindesbs\ContaoForge\Controller\:
+    resource: ../../Controller
+    public: true
