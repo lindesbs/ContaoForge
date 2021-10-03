@@ -1,11 +1,11 @@
 {
-  "name": "lindesbs/contao-forge",
+  "name": "lindesbs/contaoforge",
   "type": "contao-bundle",
   "description": "ContaoForge",
   "keywords": [
     "contao"
   ],
-  "license": "proprietary",
+  "license": "LGPL-3.0-or-later",
   "homepage": "https://contao-forge.de/",
   "authors": [
     {
@@ -17,7 +17,8 @@
   ],
   "require": {
     "php": "^7.1",
-    "contao/core-bundle": "^4.4.8"
+    "contao/core-bundle": "^4.4.8",
+    "symfony/serializer": "~v2.8"
   },
   "conflict": {
     "contao/core": "*",
@@ -50,7 +51,7 @@
   },
   "support": {
     "docs": "https://ktrion.de/",
-    "issues": "https://github.com/lindesbs/contao-forge/issues",
-    "source": "https://github.com/lindesbs/contao-forge"
+    "issues": "https://github.com/lindesbs/ContaoForge/issues",
+    "source": "https://github.com/lindesbs/ContaoForge"
   }
 }
